@@ -1,1 +1,1 @@
-# Desafio realizado para o teste técnico do vaga de estágio FrontEnd.
+# Desafio realizado para o teste técnico da vaga de estágio FrontEnd.
