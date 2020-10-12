@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #304ffe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-inline: 50pt;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align-last: center;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstColumn {
+  height: 622px;
+  width: 600px;
+}
+
+#firstname {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  margin-right: 20px;
+  width: 150pt;
+  border-radius: 50px;
+}
+
+#phone {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  width: 150pt;
+  border-radius: 50px;
+}
+
+#email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  width: 319pt;
+  border-radius: 50px;
+}
+
+#password {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  margin-right: 20px;
+  width: 150pt;
+  border-radius: 50px;
+}
+#repeatpassword {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  width: 150pt;
+  border-radius: 50px;
+}
+
+.secondColumn {
+  background-color: white;
+  height: 628px;
+  width: 600px;
+  margin-top: 6px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  width: 319pt;
+  margin-left: 65pt;
+  background-color: #304ffe;
+  color: white;
+  border-radius: 50px;
+}
+
+.google {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  line-height: 50px;
+  width: 319pt;
+  margin-left: 65pt;
+  margin-right: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+}
+.facebook {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  width: 319pt;
+  margin-left: 65pt;
+  margin-right: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+}
+
+.links {
+  margin-top: 20pt;
+  text-align: center;
+  font-size: 15px;
+}
