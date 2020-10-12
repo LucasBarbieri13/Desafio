@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="firstColumn">
+          <img src="./Dog.jpg">
+        </div>
+        <div class="secondColumn">
+          <h2 class="title">Create an Account!</h2>
+            <form class="form" id="formRegister">
+              <div class="linha">
+                <input id="firstname" type="text" placeholder="First Name"></input>
+                <input id="phone" type="text" maxlength="14" onkeyup="phonemask()" onkeypress="return onlynumber();"  placeholder="Phone"></input>
+              </div>
+              <div class="linha">
+                <input id='email' type="email" placeholder="Email Address"></input>
+              </div>
+              <div class="linha">
+                <input id="password" type="password" placeholder="Password"></input>
+                <input id="repeatpassword" type="password" onblur="validatePassword()"placeholder="Repeat Password"></input>
+              </div>
+            </form>
+            <button type="button" class="button" onclick="register()" >Register Account</button>
+              <div class="social">
+                <button class="google">Register with Google</button>
+                <button class="facebook">Register with Facebook</button>
+              </div>
+            <div class="links">
+              <ul>
+                <li> <a href="#">Forgot Password?</a></li>
+                <li> <a href="#">Already have an account? Login!</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+    </body>
+</html>
